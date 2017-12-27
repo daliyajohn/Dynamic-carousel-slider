@@ -1,0 +1,64 @@
+
+.main-wrapper {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    height: 385px;
+}
+/* sidenav and toolbar start */
+.sidenav {
+    height: 100%;
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #1e1e20;
+}
+.sidenav a {
+    padding: 13px 18px 13px 18px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+    cursor: pointer;
+}
+.toolbar {
+    height: 51px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+/* sidenav and toolbar end */
+#main {
+    width: 200px;
+    background: red;
+    height: 80px;
+}
+.main-layout {
+    height: 333px;
+    margin: 5em 0em 1em 4.6em;
+    float: left;
+    width: 91.5%;
+    overflow-x: scroll;
+    display: flex;
+}
+#grid-list, .grid-list {
+    min-width: 200px;
+    min-height: 300px;
+    background: #e4840987;
+    float: left;
+    margin: 0px 15px 15px 0px;
+    transition: 0.2s !important;
+    transition-timing-function: linear !important;
+}
+.grid-list-button {
+    margin: 18.5em 1em 0em 0em;
+    float: right;
+}
+.main p {
+    text-align: center;
+}
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-8px; opacity:0} to{left:0;opacity:.8}}

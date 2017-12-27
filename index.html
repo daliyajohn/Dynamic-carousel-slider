@@ -1,9 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Dynamic carousel slider</title>
-</head>
-<body>
 
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dynamic carousel slider</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid main">
+            <!-- main wrapper start -->
+            <div class="main-wrapper">
+                <div class="sidenav">
+                    <a>&#8962;</a>
+                </div>
+                <div class="toolbar">
+                </div>
+                <div class="main-layout" id="main-layout">
+                    <div class="grid-list"> 
+                        <button id="btn" class="grid-list-button" onclick="generateDiv(this)">Next</button>
+                        <button id="removeButon" onclick="removeDiv('removeButon')">X</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <p>
+                    <button id="next" onclick="nextDiV()">&laquo;</button>
+                    <button id="previous" onclick="previousDiV()">&raquo;</button>
+                </p>
+            </div> <!-- main wrapper end -->
+        </div>
+    </body>
 </html>
+
