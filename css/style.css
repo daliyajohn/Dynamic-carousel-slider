@@ -62,3 +62,9 @@
     text-align: center;
 }
 .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-8px; opacity:0} to{left:0;opacity:.8}}
+.grid-list-button {
+    background: #6633998f;
+    color: white;
+    border: none;
+    padding: 3px 17px 3px 17px;
+}
