@@ -68,3 +68,8 @@
     border: none;
     padding: 3px 17px 3px 17px;
 }
+#removeButon {
+    background: red;
+    border: none;
+    color: white;
+}

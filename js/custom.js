@@ -22,6 +22,7 @@
         div.appendChild(nxt_button);
         
         var button = document.createElement("button"); 
+        button.setAttribute('id', 'removeButon');
         button.setAttribute('onclick', 'removeDiv("grid-list_'+elementId+'")');
         div.appendChild(button);
         button.innerHTML= 'X';
